@@ -4,7 +4,7 @@ class Movie < ActiveRecord::Base
         #self.select('rating').uniq.each {|x| a.push(x.rating)}
         #a.sort.uniq
         
-        ['G','PG','PG-13','R','NC-17']
+        ['G','PG','PG-13','R']
         
         #rating_dict = {}
         #self.select(:rating).uniq.each do |movie|
